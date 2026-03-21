@@ -1,0 +1,23 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update Top Repos
+        uses: anmol098/waka-readme-stats@master
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_PROJECTS: "true"
+
+      - name: Update Activity
+        uses: Readme-Workflows/recent-activity@v2
+        with:
+          GH_USERNAME: myProwess
