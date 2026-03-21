@@ -70,9 +70,8 @@
 
 ## 🔄 Recently Updated Projects
 
-<p align="center">
-  <img src="github-metrics-recent.svg" alt="Recently Updated Projects" />
-</p>
+<!-- RECENT_REPOS:START -->
+<!-- RECENT_REPOS:END -->
 
 ---
 

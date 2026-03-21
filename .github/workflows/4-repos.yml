@@ -1,0 +1,31 @@
+name: Recently Updated Repositories
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+jobs:
+  update-readme-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch and Inject Recent Repos
+        run: |
+          REPOS=$(gh repo list myProwess --sort updated --limit 5 --json name,url,description -q '.[] | "- 📁 [" + .name + "](" + .url + ") - " + (.description // "No description provided")')
+          
+          awk -v r="$REPOS" '
+            /<!-- RECENT_REPOS:START -->/ { print; print r; skip=1; next }
+            /<!-- RECENT_REPOS:END -->/ { skip=0 }
+            !skip { print }
+          ' README.md > temp.md
+          mv temp.md README.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update recent repositories list" || exit 0
+          git push
