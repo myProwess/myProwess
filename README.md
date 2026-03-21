@@ -19,9 +19,6 @@
   <a href="https://www.instagram.com/prabu.ai/">
     <img src="https://img.shields.io/badge/Instagram-prabu.ai-E4405F?logo=instagram&logoColor=white" />
   </a>
-  <a href="https://dev.to/prabu_kathiresan">
-    <img src="https://img.shields.io/badge/Dev.to-Prabu%20Kathiresan-black?logo=devdotto" />
-  </a>
   <img src="https://komarev.com/ghpvc/?username=myProwess&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 

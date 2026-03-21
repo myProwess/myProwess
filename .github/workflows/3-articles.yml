@@ -12,9 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Pull in Medium and Dev.to posts
+      - name: Pull in Medium posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://medium.com/feed/@prabukathiresan09, https://dev.to/feed/prabu_kathiresan"
+          feed_list: "https://medium.com/feed/@prabukathiresan09"
           template: "- ✍️ [$title]($url)"
           max_post_count: 5
