@@ -15,6 +15,6 @@ jobs:
       - name: Pull in Medium and Dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://medium.com/feed/@prabukathiresan09, https://dev.to/feed/prabu_kathiresan_b056d630"
+          feed_list: "https://medium.com/feed/@prabukathiresan09, https://dev.to/feed/prabu_kathiresan"
           template: "- ✍️ [$title]($url)"
           max_post_count: 5
