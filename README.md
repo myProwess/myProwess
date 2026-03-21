@@ -53,6 +53,27 @@
 
 ## 📊 GitHub Analytics
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=myProwess&show_icons=true&theme=tokyonight" height="180"/>
+  <img src="https://streak-stats.demolab.com?user=myProwess&theme=tokyonight" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=myProwess&layout=compact&theme=tokyonight" height="180"/>
+</p>
+
+---
+
+## 🔄 Recently Updated Projects
+
+<!-- RECENT_REPOS:START -->
+- 📁 [myProwess](https://github.com/myProwess/myProwess) - 
+- 📁 [ai-gold-price-tracker](https://github.com/myProwess/ai-gold-price-tracker) - Indian Gold Price Tracker web app using AI Antigravity
+- 📁 [playwright-functionaltestcasegenerator](https://github.com/myProwess/playwright-functionaltestcasegenerator) - Generate functional test cases from playwright automated script
+- 📁 [ai-enigma](https://github.com/myProwess/ai-enigma) - News API Repo
+- 📁 [java-ai-researcher](https://github.com/myProwess/java-ai-researcher) - Java Researcher AI Companion
+<!-- RECENT_REPOS:END -->
+
 ---
 
 ## 🏆 Certifications
