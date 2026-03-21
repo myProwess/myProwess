@@ -79,7 +79,7 @@
 
 ## 📝 Latest Articles
 
-<!-- BLOG-POST-LIST:START -->- ✍️ [The Agentic Sandbox: Claude Code vs. Google Gemini in High-Autonomy Development](https://medium.com/@prabukathiresan09/a-head-to-head-comparison-of-openai-claude-and-gemini-for-the-agent-first-era-1431c02cb48c?source=rss-54203d93cf24------2)<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- ✍️ [The Agentic Sandbox: Claude Code vs. Google Gemini in High-Autonomy Development](https://medium.com/p/1431c02cb48c)<!-- BLOG-POST-LIST:END -->
 
 ---
 
