@@ -45,11 +45,10 @@
 
 ---
 
-## 🚀 Top Projects (Auto Updated)
+## 🚀 Top Projects (by Stars)
 
-<!--START_SECTION:top_repos-->
-<!--END_SECTION:top_repos-->
-
+<!-- METRICS:START -->
+<!-- METRICS:END -->
 ---
 
 ## ⚡ Recent Activity
