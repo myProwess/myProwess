@@ -58,16 +58,6 @@
 
 ---
 
-## 🚀 Top Projects (by Stars)
-
-<!-- METRICS:START -->
-<p align="center">
-  <img src="github-metrics.svg" alt="Top Projects by Stars" />
-</p>
-<!-- METRICS:END -->
-
----
-
 ## 🔄 Recently Updated Projects
 
 <!-- RECENT_REPOS:START -->
