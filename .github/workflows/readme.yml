@@ -1,23 +1,24 @@
-name: Update README
+name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # Runs daily
   workflow_dispatch:
 
 jobs:
-  update:
+  github-metrics:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Update Top Repos
-        uses: anmol098/waka-readme-stats@master
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHOW_PROJECTS: "true"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: myProwess
 
-      - name: Update Recent Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        with:
-          GH_USERNAME: myProwess
+          # 🔥 Enable Top Repositories by Stars
+          base: repositories
+          plugin_repositories: yes
+          plugin_repositories_featured: yes
+          plugin_repositories_order: starred
+          plugin_repositories_limit: 6
