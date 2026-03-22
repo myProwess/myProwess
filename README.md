@@ -47,7 +47,8 @@
 
 ## 📝 Latest Articles
 
-<!-- BLOG-POST-LIST:START -->- ✍️ [“AI vs QA Engineers: 5 Real Threats You Can’t Ignore”](https://medium.com/p/a5ddb58ab40a)- ✍️ [The Agentic Sandbox: Claude Code vs. Google Gemini in High-Autonomy Development](https://medium.com/p/1431c02cb48c)<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- ✍️ [“AI vs QA Engineers: 5 Real Threats You Can’t Ignore”](https://medium.com/p/a5ddb58ab40a)- 
+✍️ [The Agentic Sandbox: Claude Code vs. Google Gemini in High-Autonomy Development](https://medium.com/p/1431c02cb48c)<!-- BLOG-POST-LIST:END -->
 
 ---
 
