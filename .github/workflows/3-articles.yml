@@ -18,14 +18,3 @@ jobs:
           feed_list: "https://medium.com/feed/@prabukathiresan09"
           template: "- ✍️ [$title]($url)"
           max_post_count: 5
-      - name: Shorten Medium URLs
-        run: |
-          # Convert long Medium URLs to internal short links (medium.com/p/ID)
-          # Matches: https://medium.com/@user/title-id and strips tracking ?source=...
-          sed -i -E 's|https://medium.com/@[^/]+/[^)]+-([0-9a-f]{10,12})(\?source=[^)]*)?|https://medium.com/p/\1|g' README.md
-  
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Shorten Medium article URLs to short-links" || exit 0
-          git push
