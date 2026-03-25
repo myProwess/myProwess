@@ -67,11 +67,11 @@
 ## 🔄 Recently Updated Projects
 
 <!-- RECENT_REPOS:START -->
-- 📁 [playwright-prompt-generator](https://github.com/myProwess/playwright-prompt-generator) - playwright-prompt-generator
-- 📁 [claude-ai-tutorial](https://github.com/myProwess/claude-ai-tutorial) - Claude AI Tutorial
-- 📁 [ai-gold-price-tracker](https://github.com/myProwess/ai-gold-price-tracker) - Indian Gold Price Tracker web app using AI Antigravity
-- 📁 [ai-enigma](https://github.com/myProwess/ai-enigma) - News API Repo
 - 📁 [myProwess](https://github.com/myProwess/myProwess) - 
+- 📁 [ai-gold-price-tracker](https://github.com/myProwess/ai-gold-price-tracker) - Indian Gold Price Tracker web app using AI Antigravity
+- 📁 [playwright-prompt-generator](https://github.com/myProwess/playwright-prompt-generator) - playwright-prompt-generator
+- 📁 [ai-enigma](https://github.com/myProwess/ai-enigma) - News API Repo
+- 📁 [claude-ai-tutorial](https://github.com/myProwess/claude-ai-tutorial) - Claude AI Tutorial
 <!-- RECENT_REPOS:END -->
 
 ---
