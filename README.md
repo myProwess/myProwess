@@ -67,10 +67,10 @@
 ## 🔄 Recently Updated Projects
 
 <!-- RECENT_REPOS:START -->
-- 📁 [myProwess](https://github.com/myProwess/myProwess) - 
 - 📁 [ai-gold-price-tracker](https://github.com/myProwess/ai-gold-price-tracker) - Indian Gold Price Tracker web app using AI Antigravity
-- 📁 [playwright-mcp-demo](https://github.com/myProwess/playwright-mcp-demo) - This is a playwright MCP Implementation project along with live demo
 - 📁 [ai-enigma](https://github.com/myProwess/ai-enigma) - News API Repo
+- 📁 [myProwess](https://github.com/myProwess/myProwess) - 
+- 📁 [playwright-mcp-demo](https://github.com/myProwess/playwright-mcp-demo) - This is a playwright MCP Implementation project along with live demo
 - 📁 [playwright-prompt-generator](https://github.com/myProwess/playwright-prompt-generator) - playwright-prompt-generator
 <!-- RECENT_REPOS:END -->
 
