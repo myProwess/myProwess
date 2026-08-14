@@ -69,8 +69,8 @@
 <!-- RECENT_REPOS:START -->
 - 📁 [ai-gold-price-tracker](https://github.com/myProwess/ai-gold-price-tracker) - Indian Gold Price Tracker web app using AI Antigravity
 - 📁 [ai-enigma](https://github.com/myProwess/ai-enigma) - News API Repo
-- 📁 [playwright-amazon-antigravity](https://github.com/myProwess/playwright-amazon-antigravity) - Create an Amazon Playwright Test Automation project within 30 mins using antigravity
 - 📁 [myProwess](https://github.com/myProwess/myProwess) - 
+- 📁 [playwright-amazon-antigravity](https://github.com/myProwess/playwright-amazon-antigravity) - Create an Amazon Playwright Test Automation project within 30 mins using antigravity
 - 📁 [playwright-api-db-framework](https://github.com/myProwess/playwright-api-db-framework) - playwright-api-db-framework
 <!-- RECENT_REPOS:END -->
 
